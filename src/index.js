@@ -1,3 +1,4 @@
 module.exports = function multiply(first, second) {
-  // your solution
+  //get big number with BigInt convert function
+  return String(BigInt(first*second));
 }
